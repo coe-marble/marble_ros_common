@@ -3,22 +3,14 @@
 <package format="3">
   <name>marble_ros_common</name>
   <version>0.1.0</version>
-  <description>Shared ROS 2 launch helpers and nodes for MARBLE vehicles.</description>
+  <description>Shared ROS 2 launch helpers for MARBLE vehicles.</description>
   <maintainer email="luka.mandic@fer.hr">luka</maintainer>
   <license>Apache-2.0</license>
 
-  <buildtool_depend>ament_python</buildtool_depend>
 
-  <exec_depend>auv_msgs</exec_depend>
-  <exec_depend>geometry_msgs</exec_depend>
   <exec_depend>launch</exec_depend>
   <exec_depend>launch_ros</exec_depend>
-  <exec_depend>nav2_msgs</exec_depend>
-  <exec_depend>nav_msgs</exec_depend>
-  <exec_depend>rclpy</exec_depend>
-  <exec_depend>tf2_ros</exec_depend>
 
   <export>
-    <build_type>ament_python</build_type>
   </export>
 </package>

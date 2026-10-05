@@ -19,12 +19,6 @@ setup(
     zip_safe=True,
     maintainer="luka",
     maintainer_email="luka.mandic@fer.hr",
-    description="Shared ROS 2 launch helpers and nodes for MARBLE vehicles.",
+    description="Shared ROS 2 launch helpers for MARBLE vehicles.",
     license="Apache-2.0",
-    entry_points={
-        "console_scripts": [
-            "position_ned = marble_ros_common.position_ned:main",
-            "rviz_bridge = marble_ros_common.rviz_bridge:main",
-        ],
-    },
 )
